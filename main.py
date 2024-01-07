@@ -1,3 +1,4 @@
+import os
 from nodes import all_nodes
 from constants import *
 
@@ -148,3 +149,4 @@ if __name__ == "__main__":
 
         answer = input('\n> > > ')
         parse_answer(answer.strip().lower(), default_game)
+        os.system('cls')
